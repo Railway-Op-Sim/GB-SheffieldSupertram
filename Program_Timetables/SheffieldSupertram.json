@@ -1,0 +1,24 @@
+{
+  "startTime":"05:00",
+  "dataTemplates": [
+    {
+      "keyword":"supertram",
+      "maxSpeed":"80",
+      "power":"908",
+      "maxBrake":"46",
+      "weight":"46"
+    }
+  ],
+  "services": [
+    {
+      "ref":"YD05",
+      "description":"YEL Meadowhall Interchange to Middlewood",
+      "dataTemplate":"supertram",
+      "startSpeed":"0",
+      "increment":"1",
+      "events": [
+        "23:59;Sns;"
+      ]
+    }
+  ]
+}
