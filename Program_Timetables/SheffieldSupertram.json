@@ -11,13 +11,50 @@
   ],
   "services": [
     {
-      "ref":"YD05",
-      "description":"YEL Meadowhall Interchange to Middlewood",
+      "ref":"DY01",
+      "description":"DEP Depot to Cricket Inn Road",
+      "dataTemplate":"supertram",
+      "startSpeed":"20",
+      "increment":"1",
+      "events": [
+        "23:57;Snt;30-46 29-36",
+        "23:58;Cricket Inn Road",
+        "23:59;Fns;YC01"
+      ],
+      "times": [
+        "05:21","05:41"
+      ]
+    },
+    {
+      "ref":"YC01",
+      "description":"YEL Cricket Inn Road to Middlewood",
       "dataTemplate":"supertram",
       "startSpeed":"0",
       "increment":"1",
       "events": [
-        "23:59;Sns;"
+        "23:59;Sns;DY01",
+        "00:00;Cricket Inn Road",
+        "00:01;00:01;Hyde Park",
+        "00:04;00:04;Fitzalan Square/Ponds Forge",
+        "00:05;00:05;Castle Square",
+        "00:06;00:06;Cathedral",
+        "00:07;00:07;City Hall",
+        "00:08;00:08;West Street",
+        "00:08;00:08;University of Sheffield",
+        "00:11;00:11;Netherthorpe Road",
+        "00:13;00:13;Shalesmoor",
+        "00:14;00:14;Infirmary Road",
+        "00:16;00:16;Langsett/Primrose View",
+        "00:17;00:17;Bamforth Street",
+        "00:19;00:19;Hillsborough",
+        "00:20;00:20;Hillsborough Park",
+        "00:22;00:22;Leppings Lane",
+        "00:25;Middlewood",
+        "00:26;cdt",
+        "00:26;Fns;YM01"
+      ],
+      "times": [
+        "05:21","05:41"
       ]
     }
   ]
