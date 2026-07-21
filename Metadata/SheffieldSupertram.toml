@@ -1,0 +1,15 @@
+rly_file = "SheffieldSupertram.rly"
+ttb_files = [ "SheffieldSupertram.ttb",]
+img_files = [ "SheffieldSupertram.bmp",]
+doc_files = []
+release_date = "2026-07-21"
+version = "1.0.0"
+country_code = "GB"
+factual = true
+description = ""
+year = 2026
+display_name = "Sheffieldsupertram"
+name = "Sheffieldsupertram"
+signal_position = "left"
+author = "Daniel-Gill"
+contributors = []
